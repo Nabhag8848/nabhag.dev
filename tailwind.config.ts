@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       textDecorationThickness: {
         normal: "3px",
+        thick: "4px",
       },
     },
   },

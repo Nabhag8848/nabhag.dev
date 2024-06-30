@@ -9,17 +9,17 @@ function ImageGallery() {
       <Image
         src={Image1}
         alt="alt"
-        className="border rounded-3xl border-none object-cover hover:scale-105 h-80"
+        className="border rounded-3xl border-none object-cover hover:scale-105 h-44 md:h-[22rem]"
       />
       <Image
         src={Image3}
         alt="alt"
-        className="border rounded-3xl border-none object-cover hover:scale-105"
+        className="border rounded-3xl border-none object-cover hover:scale-105 md:h-96"
       />
       <Image
         src={Image2}
         alt="alt"
-        className="border rounded-3xl border-none  object-cover hover:scale-105 h-80"
+        className="border rounded-3xl border-none  object-cover hover:scale-105 h-44 md:h-[22rem]"
       />
     </div>
   );

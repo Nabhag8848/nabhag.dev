@@ -19,7 +19,7 @@ function Intro() {
         AI GIF Generator
       </Link>
       &nbsp;Project with Google&apos;s Summer of Code Program under{" "}
-      <span className="font-medium">RocketChat</span>
+      <span className="font-medium">RocketChat.</span>
     </p>
   );
 }

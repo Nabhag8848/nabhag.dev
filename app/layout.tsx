@@ -8,8 +8,8 @@ export const revalidate = 0;
 
 export const metadata: Metadata = {
   title: {
-    template: "Nabhag Motivaras | %s",
-    default: "Nabhag Motivaras",
+    template: "Nabhag | %s",
+    default: "Nabhag",
   },
   description:
     "Full Stack Engineer, working at revert, loves building marketplace apps and integrations",
@@ -25,7 +25,7 @@ export default function RootLayout({
       <body
         className={clsx(
           inter.className,
-          "antialiased max-h-screen bg-black text-white md:w-4/12 md:m-auto"
+          "antialiased h-screen bg-black text-white md:w-8/12 lg:w-[36%] m-auto px-4 flex flex-col"
         )}
       >
         <Navbar />

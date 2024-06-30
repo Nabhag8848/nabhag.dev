@@ -1,5 +1,6 @@
 import { randomUUID } from "crypto";
 import Link from "next/link";
+import { Badge } from "./Badge";
 
 const links = [
   {
@@ -21,12 +22,15 @@ const links = [
 ];
 export default function Navbar() {
   return (
-    <nav className="flex items-start space-x-4 pt-12 mb-16">
-      {links.map((link) => (
-        <Link href={link.href} key={randomUUID()}>
-          {link.name}
-        </Link>
-      ))}
+    <nav className="flex items-center mb-8 sm:mb-12 pt-12">
+      {/* <div className="space-x-4">
+        {links.map((link) => (
+          <Link href={link.href} key={randomUUID()}>
+            {link.name}
+          </Link>
+        ))}
+      </div> */}
+      <Badge className="ml-auto" />
     </nav>
   );
 }
